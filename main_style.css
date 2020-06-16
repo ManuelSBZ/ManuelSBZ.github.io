@@ -1,0 +1,59 @@
+
+ a:hover {
+    color: #13293D !important;
+    border-bottom:solid; 
+    border-bottom-color: #13293D;
+    transition: ease-in-out border 0.3s;
+    transition: ease-in-out color 0.3s;
+}
+
+/*@media(max-width:992px) {
+  .bg-sm-white{
+    background: white;
+  }
+}
+*/
+/*.fix-size{
+  max-width:100% !important;
+  max-height: 240px !important;;
+}*/
+.op{
+  opacity: 0.9;
+}
+.bg-az1{
+  background-color: #2970CA
+}
+
+.bg-az2{
+  background-color: #006494
+}
+
+.bg-az3{
+  background-color: #13293D
+}
+
+.bg-wh{
+  background-color: #E8F1F2
+}
+
+.bg-drk{
+  background-color: #2F2D2E
+}
+
+.img-width{
+  width: 100px !important;
+  height:100px !important;
+}
+/*ESCONDE EL ESCROLL HORIZONTAL*/
+body{
+  overflow-x: hidden;
+}
+
+.p-sl-c{
+    padding-left: 4.5rem;
+  }
+@media(max-width: 768px ){
+  .p-sl-c{
+    padding-left: 14rem;
+  }
+}
